@@ -1,0 +1,9 @@
+Void oblicz();
+//nie ma rturn, nic nie zwraca
+//deklaracja funkcji
+int oblicz();
+//return zwraca: int
+//deklaracja funkcji
+int oblicz(int liczba) {
+              return liczba +1;
+}
