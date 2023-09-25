@@ -1,0 +1,16 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(22,49): error C2664: „float poleT(int &,int &)”: nie można dokonać konwersji argumentu 1 z „float” do „int &”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(4,7): message : zobacz deklarację „poleT”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(23,44): error C2664: „float poleR(int &,int &)”: nie można dokonać konwersji argumentu 1 z „float” do „int &”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(5,7): message : zobacz deklarację „poleR”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(24,44): error C2664: „float poleKw(int &)”: nie można dokonać konwersji argumentu 1 z „float” do „int &”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(6,7): message : zobacz deklarację „poleKw”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(25,49): error C2664: „float poleP(int &,int &)”: nie można dokonać konwersji argumentu 1 z „float” do „int &”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(7,7): message : zobacz deklarację „poleP”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(26,46): error C2660: "poleKo": funkcja nie przyjmuje 2 argumentów
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(8,7): message : zobacz deklarację „poleKo”
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(31,19): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(36,14): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(41,14): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(46,15): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\1CT\Desktop\notatki\notatki\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(51,12): error C2065: "M_PI": niezadeklarowany identyfikator
