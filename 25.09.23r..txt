@@ -7,3 +7,24 @@ int oblicz();
 int oblicz(int liczba) {
               return liczba +1;
 }
+
+2 sposoby przekazywania parametrówm do funkcji
+
+1 - przez wartość: kopii parametru (zmiennej, stałej)
+2 - przez referencje: pracujemy na oryginale zmiennej, stałej, używamy znaku &
+
+float dodawanie(float&, float&);
+
+zadanie utwórz app na konsole, która wyznaczy pole trójkąta ze wzoru Herona; 
+zmienne boki trójkąta: a,b,c
+wprowadź dynamiczne
+
+Napisz app na konsole w języka c++
+który wyznacza pole:
+trójkąta a*h/2
+rombu
+kwadratu
+prostokata
+kola
+aplikacja posiada menu Trójkąt nr1, romb nr2, kwadrat nr3, prostokąt nr4, koło nr5
+funkcje przekazują parametry przez referencje
