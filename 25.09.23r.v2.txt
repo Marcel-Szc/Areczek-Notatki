@@ -1,0 +1,32 @@
+UNIQUE - Atrybut UNIQUE jet stosowany, jeśli wartości w kolumnie nie mogą się powtarzać.
+Ograniczenie powtarzalności w kolumnie nie blokuje możliwości wpisania do niej wartości NULL. 
+
+Create table ksiazki 
+{
+    ....
+    Tytuł nvachar(100) NOT NULL UNIQUE
+
+    ....
+}
+
+CREATE TABLE ksiazki
+{
+    ....
+    tytuł nvarchar(100) NOT NULL,
+    ....
+    UNIQUE (tytuł)
+}
+ALTER TABLE ksiazki
+ADD UNIQUE (tytuł);
+
+ALTER TABLE Klient
+ADD UNIQUE (PESEL) ;
+ALTER TABLE Klient
+ADD UNIQUE (telefon);
+
+Utwórz bazę danych o nazwie klienci
+baza posiada tabele klient
+tabela klien posiada 3 kolumny: idk, pesel, telefon.
+dodaj do tej tabeli 10 rekordów
+zmodyfikuj tabele według rozwiązania 
+dodaj do tabeli numer telefonu który już istnieje
