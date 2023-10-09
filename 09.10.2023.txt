@@ -1,0 +1,4 @@
+Funkcja Switch Case
+
+Jest to funkcja wielokrotnego wyboru na podstawie parametru/zmiennej.
+Jest to wyrażenie które wykonuje instrukcje na podstawie wartości parametru dla danego przypadku.
