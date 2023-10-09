@@ -2,3 +2,28 @@ Funkcja Switch Case
 
 Jest to funkcja wielokrotnego wyboru na podstawie parametru/zmiennej.
 Jest to wyrażenie które wykonuje instrukcje na podstawie wartości parametru dla danego przypadku.
+
+    def:
+
+                Switch(parametr){
+                 case 1 :
+                             //wykonaj kod gdy parametr = 1
+                          break;
+                 case 2 :  wykonaj kod gdy parametr = 2
+                        break;
+                 case 3 :
+                             //wykonaj kod gdy parametr = 3
+                          break;
+                
+                 case .... :
+                             //wykonaj kod gdy parametr = .....
+                          break;
+                default: 
+                       //wykonaj kod gdy nie podano parametru 1,2,3 ....
+                      break;
+                  }
+if(parametr == 1){//wykonaj kod gdy parametr = 1}
+else if(parametr == 1){//wykonaj kod gdy parametr = 2}
+else if(parametr == 1){//wykonaj kod gdy parametr = 3}
+else if(parametr == 1){//wykonaj kod gdy parametr = ....}
+else{//wykonaj kod gdy parametr = 1,2,3,....}
