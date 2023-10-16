@@ -1,0 +1,25 @@
+Temat: Wyrażenie warunkowe if else a if else if a wersje skrótowa
+//ver1 -------
+   if (wyrażenie) {
+         prawda
+            }
+   else {
+         false 
+       }
+//ver2-------
+   if (wyrażenie) {
+         prawda
+            }
+   else if (wyrażenie) { 
+      prawda
+       }
+   else {
+       false
+           }
+= operator przypisania, int liczba; (deklaracja) int liczba = 1; (definicja) inicjalizacja zmiennej
+== operator porównania porównuje tylko wartość if(zmk ==1) true
+=== operator porównania porównuje 2 opcje: if(zmk===1) true (typ i wartość)
+
+int liczba = 1;
+liczba == 1? PRAWDA : FAŁSZ;
+liczba == 1? cout << "ok" : cout << "niezgodność" ;
