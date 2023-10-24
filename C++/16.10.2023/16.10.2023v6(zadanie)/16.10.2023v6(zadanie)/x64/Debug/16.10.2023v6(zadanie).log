@@ -1,0 +1,4 @@
+﻿  16.10.2023v6(zadanie).cpp
+C:\Users\1CT\Desktop\09.10.2023\16.10.2023v6(zadanie)\16.10.2023v6(zadanie)\16.10.2023v6(zadanie).cpp(39,9): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\1CT\Desktop\09.10.2023\16.10.2023v6(zadanie)\16.10.2023v6(zadanie)\16.10.2023v6(zadanie).cpp(49,9): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+  16.10.2023v6(zadanie).vcxproj -> C:\Users\1CT\Desktop\09.10.2023\16.10.2023v6(zadanie)\x64\Debug\16.10.2023v6(zadanie).exe
