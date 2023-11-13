@@ -1,0 +1,3 @@
+Temat: Ćwiczenia tablicy w c++
+
+utwóz prezentacje na temat bubble sort, selekcje i quick sort
