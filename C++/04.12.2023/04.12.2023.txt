@@ -1,0 +1,3 @@
+T: C++ wskaźniki
+zad. dom.
+obejrzeć 3 pana Mirosława Zelenta na temat wskaźników

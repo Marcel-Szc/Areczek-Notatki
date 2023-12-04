@@ -1,0 +1,18 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(15,62): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(15,62): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(17,41): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int **" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(17,41): warning C4302: "typ rzutowania": obcięcie z "int **" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(18,75): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(18,75): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(19,64): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(19,64): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(27,62): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(27,62): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(29,41): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int **" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(29,41): warning C4302: "typ rzutowania": obcięcie z "int **" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(30,75): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(30,75): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(31,64): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(31,64): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+  ConsoleApplication2.vcxproj -> C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe

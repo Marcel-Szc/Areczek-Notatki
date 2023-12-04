@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,31): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,31): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,40): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,40): warning C4302: "typ rzutowania": obcięcie z "int *" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(15,34): warning C4311: "typ rzutowania": obcięcie wskaźnika z "int **" do "int"
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(15,34): warning C4302: "typ rzutowania": obcięcie z "int **" do "int"
+  ConsoleApplication1.vcxproj -> C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\04.12.2023\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
