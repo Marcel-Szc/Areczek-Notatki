@@ -1,0 +1,17 @@
+Temat: Wektory
+
+Wektor - kontener na dane inaczej dynamiczna tablica
+w dynamicznej tablicy mamy dostęp do każdego jej elementu oraz możemy w każdym momencie zwiększać jej wielkość
+do wektorów stosujemy następujące funkcje:
+push_back(); push_back(12321); dodaje do końca tablicy nowy element podany w nawiasie
+insert(); insert(0,23);
+begin(); wskazuje na początek dynamicznej tablicy
+end(); wskazuje na koniec dynamicznej tablicy
+size(); zwraca ilość el. tablicy
+
+#include <vector>, zawsze kiedy w c++ chcę użyć wektoram implementuje bibliotekę vector
+
+napisz aplikacje na konsole używając wektorów który przechowuje dowolną ilość imion - typ string
+drug tablica przechowuje date urodzenia dla danego imienia. tablice daty urodzenia posortuj i wyświetl przy dacie imie
+
+

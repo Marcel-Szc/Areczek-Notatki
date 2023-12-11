@@ -1,0 +1,2 @@
+﻿  ConsoleApplication3.cpp
+C:\Users\1CT\Desktop\Marcel_Szczerek\Arek\11.12.2023\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(23): error C4700: użycie niezainicjowanej zmiennej lokalnej "iloscDat"
