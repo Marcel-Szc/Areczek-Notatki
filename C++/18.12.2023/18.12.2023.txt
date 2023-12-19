@@ -1,0 +1,9 @@
+T: Adapter stosu w c++
+Stos jest strukturą danych w której dostęp do danych jest możliwy tylko do jednego elementu zwanego wierzchołkiem. stos jest określany mianem LIFO (Last In First Out)
+#include <stack>
+Push() - umieszczam nowy element na szczycie stosu
+pop() - zdejmuje isteniejący el. ze szczytu stosu
+empty() - sprawdza czy stos jest pusty
+size() - zwraca ilość el. umieszczonych na stosie
+top() - zwraca wartość szczytowego el. na stosie
+Stos i Sterta w c++
