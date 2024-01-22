@@ -1,0 +1,2 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\1CT\Desktop\LocalRepo\programowanieaplikacji\TabliceStatyczneIPetle\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(49,1): error C1010: Nieoczekiwany koniec pliku podczas wyszukiwania prekompilowanego pliku nagłówkowego. Czy zapomniano dodać „#include "pch.h"” do źródła?

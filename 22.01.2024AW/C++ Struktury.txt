@@ -1,0 +1,5 @@
+Utwórz aplikację na temat hobby ucznia. Aplikacja posiada 2 struktury współpracujące ze sobą 
+1: która posiada imie i nazwisko ucznia, date urodzenia, typ danych przedmioty i typ danych zainteresowania
+2: Przedmioty nazwa przedmiotu oraz prowadzący
+3: Zainteresowania
+Struktura przedmioty i struktura zainteresowania znajduje się w strukturze uczniowie
