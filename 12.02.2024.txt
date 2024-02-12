@@ -1,0 +1,132 @@
+Bazy Danych: 
+ Temat: Export, import, mysqli, select, count, css + html
+Programowanie:
+T: Wprowadzenie do OOP in c++: ćwiczenia
+Wprowadzenie:
+----------------
+obiekt - dowolny wytwór rzeczywistości
+clasa - przepis na obiekt/ opisuje obiekt/ forma
+metoda - czasownik/funkcje
+właściwości - opisuje obiekt ale to są stałe zmienne
+
+Napisz klase o nazwie Robot2024. Robot posiada 5 właściwości i 3 metody. Wzoruj się poprzednim zadaniem
+
+
+
+#include <iostream>
+using namespace std;
+
+/*
+class Robot
+{ 
+     public:
+         //Właściwości------------------------------------------------
+         string nazwa;
+         int nr_seryjny;
+         int liczba;
+         //Metody-----------------------------------------------------
+         void uruchomRobota() {
+             if (liczba == 1) 
+             {
+               //zaprezentujemy robota
+                 prezentacjaRobota();
+             }
+             else {
+                 //informacje o stanie robota
+                 informacje();
+             }
+         }
+         void prezentacjaRobota() 
+         {
+             cout << "Robot uruchomiony: " << nazwa << "\n" 
+                 << "NR seryjny: " << nr_seryjny << endl;
+         }
+         void informacje() 
+         {
+             cout << "Robot nie uruchomiony." << endl;
+         }
+};
+
+int main()
+{
+    int uruchomienie;
+    setlocale(LC_ALL, "");
+    cout << "Uruchomienie robota to 1 lub inny znak to komunikat " << endl;
+    cout << "Liczba NR ?: "; cin >> uruchomienie;
+    cout << "---------------------------------------------------------" << endl;
+
+    Robot mojrobot;
+    mojrobot.liczba = uruchomienie;
+    mojrobot.nr_seryjny = 124738932865;
+    mojrobot.nazwa = "Armstrong";
+
+    mojrobot.uruchomRobota();
+    return EXIT_SUCCESS;
+}
+*/
+
+class Robot2024
+{
+     public:
+         string kolor;
+         string zasilanie;
+         string firma;
+         int wielkosc;
+         int liczba;
+
+         void uruchomienie() 
+         {
+             if (liczba == 1)
+             {
+                 tak();
+             }
+             else if (liczba ==  2)
+             {
+                 nieLECZ();
+             }
+             else 
+             {
+                 nie();
+             }
+         }
+         void tak()
+         {
+             cout << "Robot uruchomiony: " << firma << "\n"
+                 << "kolor: " << kolor << "\n" 
+                <<  "Wielkosc: " << wielkosc << "M" << "\n"
+                 << "Zasilanie: " << zasilanie << endl;
+         }
+         void nieLECZ()
+         {
+             cout << "Robot nie został uruchomiony, ale liczba to dwa... Bambiku" << endl;
+         }
+         void nie()
+         {
+             cout << "Robot nie został uruchomiony bambiku" << endl;
+         }
+
+};
+
+
+
+int main()
+{
+
+    int uruchom;
+    setlocale(LC_ALL, "");
+    cout << "Uruchomienie robota to 1 lub inny znak to komunikat " << endl;
+    cout << "Liczba NR ?: "; cin >> uruchom;
+    cout << "---------------------------------------------------------" << endl;
+
+    Robot2024 mojrobot;
+    mojrobot.liczba = uruchom;
+    mojrobot.firma = "Militech";
+    mojrobot.kolor = "Zielony";
+    mojrobot.wielkosc = 12;
+    mojrobot.zasilanie = "Fotosynteza";
+
+
+    mojrobot.uruchomienie();
+    return EXIT_SUCCESS;
+
+}
