@@ -1,0 +1,3 @@
+Połączenie do bazy danych przez PDO
+
+1. Konfiguracja php.ini w apach (XAMPP)

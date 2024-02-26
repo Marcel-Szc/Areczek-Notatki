@@ -1,0 +1,21 @@
+T: Programowanie obiektowe
+OOP, Konstruktora, desktuktor
+
+
+class Samochod {
+
+             public:
+                     Samochod() {} // kontruktor klasy wykonuje się zawsze w momencie utworzenia obiektu klasy i może służyć np. do połączenia z bazą danych
+                    ~Samochód() {} // destruktor klasy usuwa obiekt klasu po wykonaniu zadania obiektu np. do rozłączenia połączenia z bazą danych
+
+
+
+}
+
+Zad: utwórz klase o nazwie zwierzęta, klasa posiada 3 właściwości oraz jedną metode przezentacja zwierzęcia oraz jeden konstruktor za pomocą którego przekazujemy parametry do właściwości klasy utwórz 4 różne zwierzątka
+1 wł: nazwa 
+2 wł: kolor
+3 wł: płeć
+
+
+Utwórz tablice uczniow = 10 imiona taka sama jak tablica. Zaproponuj swoją klase która posiada 2 właściwości, konstruktor i jedną metode która prezentuje ucznia. zastosuj pętle for
