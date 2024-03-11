@@ -1,0 +1,25 @@
+Temat: Techniki html, css, php pobieranie danych, PDO
+
+Zadanie: 
+	utwórz bazę danych o nazwie "radosc"
+	Baza "radosc" posiada tabele w relacji 1 do wielu.
+	1 Tabela: Dzialanie(IDD, Nazwa)
+		np: 1 Sprawdzian
+		    2 Wyjscie do kina
+	2 tabela: Efekt (IDE, Nazwa, IDD)
+		np: 1 uśmiech 1
+		    2 Chęć ponownego sprawdzianu 1
+		    3 spotkanie 2
+		    4 Dobra relacja z klasa 2
+Wytyczne:
+	Połączenie do DB: PDO (polaczenie.php)
+	Aplikacja w xampp (phpmyadmin)
+opis: 
+	strona html + css wykorzystująca technologie php
+	strona posiada menu HOME | LISTA | POLE SELECT
+	HOME: Informacje nt Autora i pokazanie komunikatu: "połączono do bazy danych"
+	LISTA: ul>li w pliku: lista.php, prezentuje rekordy pobrane z bazy danych
+	POLE SELECT: w html tworzymy listę w <select></select> po kliknięciu z listy seleccta przechodzimy do tego jednego rekordu w pliku: jeden.php
+	
+	Strona posiada stopkę z nr Buta Ucznia 
+	Czas wykonania app, na wczoraj (30 minut)

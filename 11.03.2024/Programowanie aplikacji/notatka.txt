@@ -1,0 +1,20 @@
+Programowanie obiektowe: " Dziedziczenie" w C++
+
+co to jest?
+
+Dziadek -> Ojciec -> Syn
+
+Class A 
+	konstr1
+	Par1, par2
+	fun1, fun2
+Class B
+	konstr2
+	par3, par4
+	fun3, fun4
+
+Zadanie: 
+	Gady->krokodyl
+	2 właściwości par1, par2
+	2 metody: konstruktor, prezentacja
+krokodyl dziedziczy po Gady
