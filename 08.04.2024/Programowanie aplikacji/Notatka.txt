@@ -1,0 +1,37 @@
+POLIMORFIZM, programowaniew c++
+OOP: że jest związane z: dziedziczeniem, hermetyzacją, olimorfizmemS
+		
+			class Kształt
+ 			 {
+			   virtual void rysuj()=0;
+			 {
+	class Kolo:public Ksztalt
+ 			 {
+			  void rysuj()=0;
+			 {
+	class Kwadrat:public Ksztalt
+			 {
+			  void rysuj()=0;
+			 {
+	class Prostokat:public Ksztalt
+			 {
+			  void rysuj()=0;
+			 {
+	class Kolo:public Kształt
+			 {
+			  void rysuj()=0;
+			 {
+
+
+KSZTAŁT^ *wsk;
+kOLO KO;
+kWADRAT KW;
+PROTOKAT PR;
+
+WSK = &ko;
+wsk->rysuj();
+
+wsk = &pr;
+wsk->rysuj();
+
+Zadanie domowe: utwórz przezentacje na temat polimorfizmu ze swoimi przykładami (minimum 2 przykłady) w c++, minimum 12 slajdów na p[odstawie kursu Mirosława Zelent
