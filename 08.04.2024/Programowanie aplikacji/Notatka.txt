@@ -7,19 +7,19 @@ OOP: że jest związane z: dziedziczeniem, hermetyzacją, olimorfizmemS
 			 {
 	class Kolo:public Ksztalt
  			 {
-			  void rysuj()=0;
+			  virtual void rysuj()=0;
 			 {
 	class Kwadrat:public Ksztalt
 			 {
-			  void rysuj()=0;
+			  virtual void rysuj()=0;
 			 {
 	class Prostokat:public Ksztalt
 			 {
-			  void rysuj()=0;
+			  virtual void rysuj()=0;
 			 {
 	class Kolo:public Kształt
 			 {
-			  void rysuj()=0;
+			  virtual void rysuj()=0;
 			 {
 
 
