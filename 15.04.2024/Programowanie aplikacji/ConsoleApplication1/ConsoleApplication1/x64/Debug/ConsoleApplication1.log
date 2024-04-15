@@ -1,0 +1,9 @@
+﻿  ConsoleApplication1.cpp
+C:\xamppi\htdocs\Marcel Szczerek\AW\15.04.2024\Programowanie aplikacji\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(259,19): error C2039: „PrezentacjaUcznia”: nie jest składową elementu „Przedmioty”
+  C:\xamppi\htdocs\Marcel Szczerek\AW\15.04.2024\Programowanie aplikacji\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(212,7):
+  zobacz deklarację „Przedmioty”
+  
+C:\xamppi\htdocs\Marcel Szczerek\AW\15.04.2024\Programowanie aplikacji\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(264,19): error C2039: „PrezentacjaUcznia”: nie jest składową elementu „Przedmioty”
+  C:\xamppi\htdocs\Marcel Szczerek\AW\15.04.2024\Programowanie aplikacji\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(212,7):
+  zobacz deklarację „Przedmioty”
+  
