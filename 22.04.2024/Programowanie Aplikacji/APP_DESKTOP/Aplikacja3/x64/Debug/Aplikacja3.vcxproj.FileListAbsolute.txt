@@ -1,0 +1,8 @@
+C:\xamppi\htdocs\Marcel Szczerek\AW\22.04.2024\Programowanie Aplikacji\APP_DESKTOP\Aplikacja3\x64\Debug\Aplikacja3.vcxproj.AssemblyReference.cache
+C:\xamppi\htdocs\Marcel Szczerek\AW\22.04.2024\Programowanie Aplikacji\APP_DESKTOP\Aplikacja3\x64\Debug\Aplikacja3.exe
+C:\xamppi\htdocs\Marcel Szczerek\AW\22.04.2024\Programowanie Aplikacji\APP_DESKTOP\Aplikacja3\x64\Debug\Aplikacja3.MyForm.resources
+C:\xamppi\htdocs\Marcel Szczerek\AW\22.04.2024\Programowanie Aplikacji\APP_DESKTOP\Aplikacja3\x64\Debug\Aplikacja3.vcxproj.GenerateResource.cache
+C:\Users\1CT\Desktop\Aplikacja3\x64\Debug\Aplikacja3.vcxproj.AssemblyReference.cache
+C:\Users\1CT\Desktop\Aplikacja3\x64\Debug\Aplikacja3.MyForm.resources
+C:\Users\1CT\Desktop\Aplikacja3\x64\Debug\Aplikacja3.vcxproj.GenerateResource.cache
+C:\Users\1CT\Desktop\Aplikacja3\x64\Debug\Aplikacja3.exe

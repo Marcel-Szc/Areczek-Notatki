@@ -1,0 +1,4 @@
+C:\Users\1CT\Desktop\JD\Aplikacja4\x64\Debug\Aplikacja4.vcxproj.AssemblyReference.cache
+C:\Users\1CT\Desktop\JD\Aplikacja4\x64\Debug\Aplikacja4.exe
+C:\Users\1CT\Desktop\JD\Aplikacja4\x64\Debug\Aplikacja4.MyForm.resources
+C:\Users\1CT\Desktop\JD\Aplikacja4\x64\Debug\Aplikacja4.vcxproj.GenerateResource.cache
