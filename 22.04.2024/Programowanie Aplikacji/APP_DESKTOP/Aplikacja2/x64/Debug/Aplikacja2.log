@@ -1,0 +1,2 @@
+﻿  MyForm.cpp
+C:\xamppi\htdocs\Marcel Szczerek\AW\22.04.2024\Programowanie Aplikacji\APP_DESKTOP\Aplikacja2\MyForm.cpp(10,1): error C1010: Nieoczekiwany koniec pliku podczas wyszukiwania prekompilowanego pliku nagłówkowego. Czy zapomniano dodać „#include "pch.h"” do źródła?

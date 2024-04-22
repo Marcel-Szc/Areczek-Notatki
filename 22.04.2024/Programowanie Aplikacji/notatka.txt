@@ -1,0 +1,2 @@
+T: Visual studio 2022 - GUI
+Microsoft Form = "Czyli aplikacje desktopowe" w c++
