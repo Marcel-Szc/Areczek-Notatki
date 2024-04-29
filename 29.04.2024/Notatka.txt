@@ -1,0 +1,15 @@
+Utwórz projekt bazy danychw  Draw.io o nazwie "Projekt_jeden_do_Wielu"
+Autorzy - Ksiązki
+Export do PNG
+Export do html
+-------------------------------------------------------------------------
+Utwórz projekt bazy danychw  Draw.io o nazwie "Projekt_Wiele_do_Wielu"
+Autorzy - Ksiązki
+Export do PNG
+Export do html
+-------------------------------------------------------------------------
+Na ocene: 
+Zaprojektuj w draw.io quiz nt. programowania, 5 dowolnych pytań
+Jedno pytanie 1 forma
+Aplikacja wyświetla podsumowanie odpowiedzi.
+Aplikacja w Visual Studio 2022
