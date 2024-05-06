@@ -1,0 +1,9 @@
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.vcxproj.AssemblyReference.cache
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm.resources
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm1.resources
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm2.resources
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm3.resources
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.vcxproj.GenerateResource.cache
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.exe
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm4.resources
+C:\Users\1CT\Desktop\JD\QuizProg\x64\Debug\QuizProg.MyForm5.resources
