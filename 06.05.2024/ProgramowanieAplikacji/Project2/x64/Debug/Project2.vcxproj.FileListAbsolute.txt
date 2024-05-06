@@ -1,0 +1,6 @@
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.vcxproj.AssemblyReference.cache
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.MyForm.resources
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.MyForm1.resources
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.MyForm2.resources
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.vcxproj.GenerateResource.cache
+C:\xamppi\htdocs\Marcel Szczerek\AW\06.05.2024\ProgramowanieAplikacji\Project2\x64\Debug\Project2.exe
