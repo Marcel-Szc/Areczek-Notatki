@@ -1,0 +1,71 @@
+body,html {
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+}
+.menu {
+    width: 20%;
+    float: left;
+}
+.window{
+    width:80%;
+    float:left;
+}
+.header{
+    padding-top: 50px;
+    height:150px;
+    background-color:chartreuse;
+}
+.content {
+    padding-top: 50px;
+    height: 650px;
+    background-color: gray;
+}
+.footer {
+    padding-top: 50px;
+    height: 150px;
+    background-color: chartreuse;
+}
+.formCars {
+    width:450px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.calcForm {
+    width:900px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px; 
+}
+.contactForm {
+    width:900px;
+    height: 450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.BTNoblicz {
+
+}
+.wynik {
+    padding: 10px;
+    width:250px;
+    height: 125px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 20px; 
+}
