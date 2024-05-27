@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API </title>
+</head>
+<body>
+    <div class="zawartosc">
+        <h2>Lista userów 2024</h2>
+        <hr>
+        <div id="dane"></div>
+            <script>
+                async function FetchUsers(){
+                    try{
+                    const responce = await fetch("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m");
+                    if(!responce.ok){
+                        throw new Error("Brak polaczenia....." + responce.statusText);
+                    }
+                    const users = await responce.json();
+                    pobierzIpokaz(users);
+                }catch(error){
+                    console.error("Problem z pobraniem danych", error); 
+                }
+                }
+                
+
+                function pobierzIpokaz(users){
+                    users.forEach(user => {
+                        const userDIV = document.createElement('div');
+                        userDIV.innerHTML += `
+                            <h4>${user.temperature}</h4>
+                        `;
+                        const dane = document.getElementById("dane");
+                        dane.appendChild(userDIV);
+                    });
+                }
+                FetchUsers()
+            </script>
+    </div>
+</body>
+</html>

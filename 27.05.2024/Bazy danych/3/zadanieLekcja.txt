@@ -1,0 +1,3 @@
+Utwóz stronę internetową która pobiera dane z endpointa o nazwie https://jsonplaceholder.typicode.com/posts
+id, title, body
+zaprezentuj w stronie internetowej z użyciem prostego css

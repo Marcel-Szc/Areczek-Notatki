@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista postaci</h1>
+    <hr>
+    <div id="div"></div>
+    <script>
+         async function pobierz() {
+         await   fetch("data.json")
+        .then(response => {return response.json();})
+        .then(data=>{funkcjaDoKtorejPrzekazujemy(data);})
+        .catch(error=>{console.error("komunikat error", error);});
+        }
+        function funkcjaDoKtorejPrzekazujemy(data) {
+            let dane = document.getElementById("div");
+            data.forEach(item=>{
+                dane.innerHTML += `
+                ${item.imie}, ${item.nazwisko} <hr>
+                `;
+            });
+        };
+        pobierz();
+    </script>
+</body>
+</html>

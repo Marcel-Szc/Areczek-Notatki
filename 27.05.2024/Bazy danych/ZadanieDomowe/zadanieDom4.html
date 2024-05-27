@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 3</title>
+    <style>
+        #postyDane {
+            width: 500px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 25px;
+            background-color:rgb(197, 232, 236);
+            margin: auto;
+        }
+        #postyDane h4 {
+            color:rgb(15, 74, 88);
+            text-decoration: underline;
+        }
+        #postyDane p {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="zawartosc">
+        <h2>Lista</h2>
+        <hr>
+        <div id="dane"></div>
+            <script>
+                async function FetchPosts(){
+                    try{
+                    const responce = await fetch("https://pzs1.pszczyna.edu.pl/wp-json/wp/v2/posts");
+                    if(!responce.ok){
+                        throw new Error("Brak polaczenia....." + responce.statusText);
+                    }
+                    const posts = await responce.json();
+                    pobierzIpokaz(posts);
+                }catch(error){
+                    console.error("Problem z pobraniem danych", error); 
+                }
+                }
+                
+
+                function pobierzIpokaz(posts){
+                    posts.forEach(post => {
+                        const userDIV = document.createElement('div');
+                        userDIV.id = "postyDane";
+                        userDIV.innerHTML += `
+                            <h4> <strong>${post.id}.${post.id}</strong></h4
+                            <p> ${post.og_title}</p>
+                        `;
+                        const dane = document.getElementById("dane");
+                        dane.appendChild(userDIV);
+                    });
+                }
+                FetchPosts()
+            </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+utwórz prezentacje ze swoimi przykładami pobierania danych w formie JSON do swojej strony internetowej.
+a) utwórz swój plik JSON - dowolnie(minimum 5 parametrów dla danego obiektu)
+b) zarejestruj się w darmowym API pogodowym np.: api.openweathermap.org i pobierz dane w JSON
+c) korzystając z zadania 1 https://jsonplaceholder.typicode/photos pobierz fotografie
+d) pobierz wszystkie posty ze strony internetowej szkoły https://pzs1.pszczyna.edu.pl/wp-json/wp/v2/posts
