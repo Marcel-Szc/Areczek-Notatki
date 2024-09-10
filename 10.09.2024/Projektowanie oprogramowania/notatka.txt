@@ -1,0 +1,9 @@
+git log -p
+git log -u
+git log --patch
+git log --stat
+git log --no-merges
+git log -2
+git log --grep
+	ps aux | grep http
+git shortlog

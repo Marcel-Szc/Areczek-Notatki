@@ -1,0 +1,10 @@
+Temat: CRUD - START - pierwsze starcie, imperium kontratakuje...
+
+1. Projekt bazy danych: baza10092024
+	-1 tabela: zakupy(id,nazwe,cene)
+2. Utworzeniu projektu strony: index.php, polaczenie.php. czytaj.php, aktualizuj.php, usun.php
+
+3. dokumentacja projektu /* */, //, lista zapytań (kwerendy) plik txt.
+
+Rozwiązanie wykrzaczenia xamppa:
+C:\xampp\mysql\data - usuń wszystko i przekopiuj wszystko z C:\xampp\mysql\backup do C:\xampp\mysql\data
