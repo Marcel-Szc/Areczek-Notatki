@@ -1,0 +1,24 @@
+Temat : Kompozycje
+
+Kompozycja to wzorzec projektowy
+
+Zad 1:
+Napisz klasę adres która przechowuje adres np(miasto, ulica i nr domu). utwórz klasę person, która przechowuje dane osoby imie nazwisko oraz 
+posada jako członek obiekt klasy adres zaimplementuj metody do wyświetlania pełnych danych
+
+Zad 2: 
+Napisz klasę silnik która przechowuje informacje o pojemności silnika i jego mocy, nastepnie stwórz klasę samochód która ma jako pole 
+obiekt klasy silnik, ziamplementuj metodę która wyświetli wszystkie dane
+
+zad3: 
+Stwórz klasę autor która przechowuje imie i nazwisko autora. Nasepnie zbuduj klase książka która ma: tytuł książki jako pole instancji 
+klasy autor, dodaj metodę do wyświtlania informacji po książce wraz z jej autorem
+
+zad4:
+ napisz klasę screen która przechowuje rozdzielczość ekranu (szerokość i wysokość), następniej utwórz klasę laptop która ma model laptopa
+i zawiera obiekt klasy screen. Dodaj metodę wyświtlające pełne informacje o laptopie i jego ekranie;
+
+Zad dom:
+Utwórz klasę wheel która przechowuje srednice koła. następnie stwórz klasę bicycle, która posiada obiekty klasy wheel dla obu kół.
+ zaimplementuj metodę wyświetlającą informacje o rowerze
+
