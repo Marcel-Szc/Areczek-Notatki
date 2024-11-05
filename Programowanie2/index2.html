@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //https://jsonplaceholder.typicode.com/todos
+        const url = "https://jsonplaceholder.typicode.com/todos";
+        async function fetchData(url) {
+            try {
+                const responce = await fetch(url);
+                if(!responce.ok){
+                    throw new Error(`HTTP error status: ${responce.status}`);
+
+                }
+                const data = await responce.json();
+                let wynik = data.map((el)=> {
+                    console.log(data);
+                })
+            } catch(error) {
+                console.log("Wystąpił błąd: ", error);
+            }
+        }
+        fetchData();
+    </script>
+</body>
+</html>

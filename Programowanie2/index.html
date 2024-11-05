@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tablice = [1,2,3,4,5,6,7,8,9,10];
+        let nowaTablica = tablice.filter((el)=>el%2 ===0);
+        let nowaTablica2 = tablice.map((el)=>{
+            if(el % 2 === 0) return el;
+            else return null;
+        });
+        console.log(nowaTablica);
+        console.log("------------------------------------------------------------");
+        console.log(nowaTablica2);
+        console.log("------------------------------------------------------------");
+        const name = ["Arkadiusz", "Dariusz", "Monia"];
+        let namesNowa = name.filter((el)=>el.length > 5);
+        console.log(namesNowa);
+        console.log("------------------------------------------------------------");
+
+        let znajdz = name.find(function(el){return el==="Arkadiusz"});
+        console.log(znajdz);
+        console.log("------------------------------------------------------------");
+
+        name.forEach(element => {console.log(element + " index "+ 1); });
+        console.log("------------------------------------------------------------");
+    </script>
+</body>
+</html>
