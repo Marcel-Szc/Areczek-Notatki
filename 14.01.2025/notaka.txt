@@ -1,0 +1,10 @@
+Python - versionowanie
+pip - menadzer pakietow
+--------------------------
+django, flask, app konsole.
+--------------------------
+Przesteń: virtualenv
+--------------------------
+.git => init
+venv => virtualenv venv ( pip list, pip install > plik.txt )
+node_module => npm init ( js )
