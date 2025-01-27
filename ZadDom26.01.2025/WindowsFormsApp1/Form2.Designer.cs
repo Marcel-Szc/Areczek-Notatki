@@ -44,20 +44,21 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(1, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(799, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "START";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(378, 83);
+            this.label1.Location = new System.Drawing.Point(378, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 20);
             this.label1.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             this.pictureBox1.ImageLocation = "https://media.wplm.pl/thumbs/35f/NzIweDQ0Mi9jX2MvdV8xL2NjXzg2ZjM4L3AvMjAyNS8wMS8w" +
     "NC8xMjgwLzcyMC81NTgxMmQyYjkxMGM0NTMxOWVlYjUzZDU0MDMzMjJmMy5qcGVn.jpeg";
-            this.pictureBox1.Location = new System.Drawing.Point(65, 135);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 117);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(220, 136);
             this.pictureBox1.TabIndex = 2;
@@ -77,7 +78,7 @@
             // 
             this.pictureBox2.ImageLocation = "https://media.wplm.pl/thumbs/35f/NzIweDQ0Mi9jX2MvdV8xL2NjXzg2ZjM4L3AvMjAyNS8wMS8w" +
     "NC8xMjgwLzcyMC81NTgxMmQyYjkxMGM0NTMxOWVlYjUzZDU0MDMzMjJmMy5qcGVn.jpeg";
-            this.pictureBox2.Location = new System.Drawing.Point(291, 135);
+            this.pictureBox2.Location = new System.Drawing.Point(291, 117);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(220, 136);
             this.pictureBox2.TabIndex = 3;
@@ -87,7 +88,7 @@
             // 
             this.pictureBox3.ImageLocation = "https://media.wplm.pl/thumbs/35f/NzIweDQ0Mi9jX2MvdV8xL2NjXzg2ZjM4L3AvMjAyNS8wMS8w" +
     "NC8xMjgwLzcyMC81NTgxMmQyYjkxMGM0NTMxOWVlYjUzZDU0MDMzMjJmMy5qcGVn.jpeg";
-            this.pictureBox3.Location = new System.Drawing.Point(517, 135);
+            this.pictureBox3.Location = new System.Drawing.Point(550, 117);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(220, 136);
             this.pictureBox3.TabIndex = 4;
@@ -97,7 +98,7 @@
             // 
             this.pictureBox4.ImageLocation = "https://media.wplm.pl/thumbs/35f/NzIweDQ0Mi9jX2MvdV8xL2NjXzg2ZjM4L3AvMjAyNS8wMS8w" +
     "NC8xMjgwLzcyMC81NTgxMmQyYjkxMGM0NTMxOWVlYjUzZDU0MDMzMjJmMy5qcGVn.jpeg";
-            this.pictureBox4.Location = new System.Drawing.Point(183, 277);
+            this.pictureBox4.Location = new System.Drawing.Point(129, 277);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(220, 136);
             this.pictureBox4.TabIndex = 5;
@@ -107,7 +108,7 @@
             // 
             this.pictureBox5.ImageLocation = "https://media.wplm.pl/thumbs/35f/NzIweDQ0Mi9jX2MvdV8xL2NjXzg2ZjM4L3AvMjAyNS8wMS8w" +
     "NC8xMjgwLzcyMC81NTgxMmQyYjkxMGM0NTMxOWVlYjUzZDU0MDMzMjJmMy5qcGVn.jpeg";
-            this.pictureBox5.Location = new System.Drawing.Point(409, 277);
+            this.pictureBox5.Location = new System.Drawing.Point(436, 277);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(220, 136);
             this.pictureBox5.TabIndex = 6;
@@ -117,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
