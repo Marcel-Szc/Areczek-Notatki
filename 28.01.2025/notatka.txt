@@ -1,1 +1,46 @@
-funkcja
+1. Wybierz wszystkich uczniów z klasy 1A
+SELECT * FROM uczniowie WHERE klasa = '1A';
+
+2. Wybierz imiona i nazwiska uczniów, którzy mają średnią ocen powyżej 4.5
+SELECT imie,nazwisko FROM uczniowie WHERE srednia_ocen > 4.5;
+
+3. Wybierz uczniów urodzonych po 2004 roku
+SELECT * FROM uczniowie WHERE data_urodzenia >'2004-12-31';
+
+4. Wybierz uczniow z klasy '2B' i posortuj ich według sredniej ocen malejaco
+SELECT * FROM `uczniowie` WHERE klasa ='2B' ORDER BY srednia_ocen DESC;
+
+5.Wybierz uczniow, których nazwisko zaczyna się na literę 'K'
+SELECT * FROM `uczniowie` WHERE nazwisko LIKE 'K%';
+
+6. Wybierz uczniów, którzy mają średnia ocen między 4.0 a 4.5
+SELECT * FROM `uczniowie` WHERE srednia_ocen BETWEEN 4.0 AND 4.5;
+
+7. Wybierz uczniow z klas '3A','3B','3C' i posortuj ich według daty urodzenia rosnąco
+SELECT * FROM `uczniowie` WHERE klasa IN('3A','3B','3C') ORDER BY data_urodzenia ASC;
+
+8. Wybierz uczniów, którzy mają najwyższą srednia ocen w klasie '4A'
+SELECT * FROM `uczniowie` WHERE klasa = '4A' ORDER BY srednia_ocen DESC LIMIT 1;
+
+9. Wybierz uczniów, którzy mają urodziny w maju.
+SELECT * FROM `uczniowie` WHERE MONTH(data_urodzenia)=5;
+
+10. Wybierz uczniów, którzy mają średnią ocen poniżej 3.5
+SELECT * FROM `uczniowie` WHERE srednia_ocen < 3.5;
+
+11. Wybierz uczniow, którzy mają nazwisko dłuższe niż 8 liter
+SELECT * FROM `uczniowie` WHERE LENGTH(nazwisko) > 8;
+
+12. Wybierz uczniow, którzy mają imię kończące się na literę 'a'
+SELECT * FROM `uczniowie` WHERE imie LIKE '%a';
+
+13. Wybierz uczniow, którzy mają średnią ocen powyżej 4.0 i są z klasy '5B'
+SELECT * FROM `uczniowie` WHERE srednia_ocen > 4.0 AND klasa = '5B';
+
+14. Wybierz uczniow, którzy mają urodziny w grudniu i posortuj ich według daty urodzenia rosnąco
+SELECT * FROM `uczniowie` WHERE MONTH(data_urodzenia)=12 ORDER BY data_urodzenia ASC;
+
+
+15. Wybierz uczniow, którzy mają średnią ocen równą 4.0 lub 4.5
+SELECT * FROM `uczniowie` WHERE srednia_ocen IN(4.0,4.5);
+('Sławomir', 'Mentzen', '8C', 4.4, '1995-01-30');
