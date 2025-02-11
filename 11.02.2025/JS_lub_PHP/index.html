@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html{
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        .main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <img src="https://picsum.photos/id/237/200/200" height="400px" width="400px" id="foto1">
+        <input type="range" name="suwak1" id="alfa" min="0" max="100">
+        <img src="https://picsum.photos/id/236/200/200" height="400px" width="400px" id="foto2">
+        <input type="range" name="suwak1" id="ciemnosc"min="100" max="200">
+        <img src="https://picsum.photos/id/235/200/200" height="400px" width="400px" id="foto3">
+        <input type="range" name="suwak1" id="jasnosc" min="0" max="100">
+    </section>
+</body>
+<script>
+    let alfa = document.getElementById("alfa");
+    let ciemnosc = document.getElementById("ciemnosc");
+    let jasnosc = document.getElementById("jasnosc");
+
+    alfa.addEventListener("input", function(){
+        wartosc = alfa.value / 100;
+        document.getElementById("foto1").style.opacity = wartosc;
+    });
+    jasnosc.addEventListener("input", function(){
+        document.getElementById("foto3").style.brightness = jasnosc.value,"%";
+    });
+    ciemnosc.addEventListener("input", function(){
+        document.getElementById("foto2").style.brightness = ciemnosc.value,"%";
+    });
+</script>
+</html>
