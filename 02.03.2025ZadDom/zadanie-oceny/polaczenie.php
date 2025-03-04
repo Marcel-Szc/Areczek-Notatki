@@ -1,3 +1,3 @@
 <?php
-$polaczenie = new mysqli("localhost","root","","02.03.2025ZadDom",3306);
+$polaczenie = new mysqli("localhost","root","","ocenki",3306);
 ?>
