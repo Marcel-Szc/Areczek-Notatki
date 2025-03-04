@@ -90,7 +90,7 @@ body {
 #message-input {
     flex: 0 1 40px;
     padding: 1px 4px;
-    border: 1px solid rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(241, 168, 99, 0.3);
     border-radius: 8px;
     background: var(--input-bg);
     color: var(--text-color);
@@ -102,12 +102,12 @@ body {
 }
 
 #message-input:hover {
-    border-color: rgba(99, 102, 241, 0.3);
+    border-color: rgba(241, 168, 99, 0.3);
 }
 
 #message-input:focus {
-    border-color: rgba(99, 102, 241, 0.4);
-    box-shadow: 0 0 8px rgba(99, 102, 241, 0.3);
+    border-color:rgba(241, 168, 99, 0.3);
+    box-shadow: 0 0 8px rgba(241, 168, 99, 0.3);
 }
 
 #send-button {
@@ -122,13 +122,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 10px rgba(241, 168, 99, 0.3);
     font-size: 0.75rem;
     height: 40px;
 }
 
 #send-button:hover {
-    background: #4F46E5;
+    background: rgba(241, 168, 99, 0.3);
     transform: scale(1.05);
 }
 
