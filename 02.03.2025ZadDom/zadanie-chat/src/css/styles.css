@@ -1,18 +1,18 @@
 :root {
-    --primary-color: #6366F1;
-    --secondary-color: #3F3D56;
-    --text-color: #F3F4F6;
-    --bg-color: #0F172A;
-    --chat-bg: #1E293B;
-    --sent-msg-color: #6366F1;
-    --received-msg-color: #334155;
+    --primary-color: #FF5733; /* Updated */
+    --secondary-color: #C70039; /* Updated */
+    --text-color: #FFFFFF; /* Updated */
+    --bg-color: #1C1C1C; /* Updated */
+    --chat-bg: #2C2C2C; /* Updated */
+    --sent-msg-color: #FF5733; /* Updated */
+    --received-msg-color: #900C3F; /* Updated */
     --shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    --input-bg: #1E293B;
-    --border-radius: 14px;
+    --input-bg: #2C2C2C; /* Updated */
+    --border-radius: 20px; /* Updated */
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Arial', sans-serif; /* Updated */
     background-color: var(--bg-color);
     margin: 0;
     min-height: 100vh;
@@ -54,7 +54,7 @@ body {
     margin: 6px 0;
     border-radius: var(--border-radius);
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Updated for better readability */
     position: relative;
     transition: all 0.2s ease-in-out;
 }
@@ -94,7 +94,7 @@ body {
     border-radius: 8px;
     background: var(--input-bg);
     color: var(--text-color);
-    font-size: 0.8rem;
+    font-size: 0.9rem; /* Updated for better readability */
     height: 15px;
     transition: all 0.2s ease;
     outline: none;
