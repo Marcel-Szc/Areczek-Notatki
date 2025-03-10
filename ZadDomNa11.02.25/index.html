@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding:0;
+            size: border-box;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            background-color: rgb(32, 32, 32);
+        }
+        aside {
+            width: 30%;
+            border-right: solid 4px rgb(162, 76, 18);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        aside div {
+            color: rgb(162, 76, 18);
+            font-size: 36px;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .main {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        #pytanie {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            color: rgb(162, 76, 18);
+            border-bottom: solid 4px rgb(162, 76, 18);
+        }
+        .wyniki {
+            width: 100%;
+            height: 20%;
+            display: flex;
+        }
+        .wyniki div {
+            width: 33.33%;
+            border-right: solid 4px rgb(162, 76, 18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            color: rgb(162, 76, 18);
+        }
+        #wynik_el3 {
+            border-right: none;
+        }
+        #kwadrat, #BMI, #litery {
+            display: none;
+        }
+        input {
+            background-color: rgb(94, 94, 94);
+            border-color:rgb(162, 76, 18);
+            color:rgb(67, 32, 9);
+            padding: 6px 10px 6px 10px;
+        }
+        button {
+            background-color: rgb(41, 41, 41);
+            border-color:rgb(162, 76, 18);
+            color:rgb(162, 76, 18);
+            padding: 6px 10px 6px 10px;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <div id="el1">el1</div>
+        <div id="el2">el2</div>
+        <div id="el3">el3</div>
+    </aside>
+    <section class="main">
+        <div id="pytanie">
+            <div id="BMI">podaj wzrost w cm: <input type="text" id="wzrost"> i waga w kg: <input type="text" id="waga"> <button id="obliczBMI">OK</button></div>
+            <div id="litery">podaj swoje imie: <input type="text" id="imie"> <button id="obliczLitery">OK</button></div>
+        </div>
+        <div class="wyniki">
+            <div id="wynik_el1"></div>
+            <div id="wynik_el2"></div>
+            <div id="wynik_el3"></div>
+        </div>
+    </section>
+</body>
+<script>
+    let el1 = document.getElementById("el1");
+    let el2 = document.getElementById("el2");
+    let el3 = document.getElementById("el3");
+    let wynik_el1 = document.getElementById("wynik_el1");
+    let wynik_el2 = document.getElementById("wynik_el2");
+    let wynik_el3 = document.getElementById("wynik_el3");
+    
+    el1.addEventListener("click", function(){
+        let delta = parseFloat( Math.pow(4,2) - ((4*2) * (-2))).toFixed(2);
+        let x1 = parseFloat((4 + Math.sqrt(delta)) / 4).toFixed(2);
+        let x2 = parseFloat((4 - Math.sqrt(delta)) / 4).toFixed(2);
+        wynik_el1.innerHTML = "Delta wynosi: " + delta +"<br>x1 wynosi: " + x1 + "<br>x2 wynosi: " + x2 + "<br> równania Y = 2x^2 - 4x - 2";
+    });
+
+    el2.addEventListener("click", function(){
+        document.getElementById("BMI").style.display = "block";
+        document.getElementById("litery").style.display = "none";
+    });
+    document.getElementById("obliczBMI").addEventListener("click", function(){
+        let wzrost = Math.pow((document.getElementById("wzrost").value/100),2);
+        let waga = document.getElementById("waga").value;
+        let BMI = waga / wzrost;
+        BMI = BMI.toFixed(2);
+        wynik_el2.innerHTML = "BMI wynosi: " + BMI; 
+    });
+    el3.addEventListener("click", function(){
+        document.getElementById("BMI").style.display = "none";
+        document.getElementById("litery").style.display = "block";
+    })
+    document.getElementById("obliczLitery").addEventListener("click", function(){
+        let ile = document.getElementById("imie").value.length;
+        wynik_el3.innerHTML = "Ilosc liter: " + ile;
+        });
+</script>
+</html>
