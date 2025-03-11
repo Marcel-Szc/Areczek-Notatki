@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding:0;
+            size: border-box;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            background-color: rgb(32, 32, 32);
+        }
+        aside {
+            width: 100%;
+            border-right: solid 4px rgb(162, 76, 18);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        aside div {
+            color: rgb(162, 76, 18);
+            font-size: 36px;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <div id="el1">Pole koła</div>
+        <div id="el2">wprowadź imie</div>
+        <div id="el3">zmień kolor tła</div>
+    </aside>
+</body>
+<script>
+    let el1 = document.getElementById("el1");
+    let el2 = document.getElementById("el2");
+    let el3 = document.getElementById("el3");
+    let wynik_el1 = document.getElementById("wynik_el1");
+    let wynik_el2 = document.getElementById("wynik_el2");
+    let wynik_el3 = document.getElementById("wynik_el3");
+    
+    el1.addEventListener("click", function(){
+        let promien = prompt("Podaj promień koła");
+        let wynik = Math.PI * (promien ** 2);
+        alert("Pole koła: "+ wynik);
+
+    });
+
+    el2.addEventListener("click", function(){
+       let imie = prompt("Podaj Imię");
+       alert("Witaj "+ imie);
+    });
+    el3.addEventListener("click", function(){
+        document.querySelector("body").style.backgroundColor = "darkred";
+    })
+</script>
+</html>
