@@ -1,0 +1,12 @@
+C:\Users\Programista\Documents\lester\17.03.2025
+Temat: 
+- Kwerendy agregujące: 
+SELECT 
+b*b-4*a*c as "delta", 
+(-b-sqrt(b*b-4*a*c))/2*a as "x1", 
+(-b+sqrt(b*b-4*a*c))/2*a as "x2" 
+FROM `dane`;
+- Zapytania php: 
+
+Zadanie: 
+
