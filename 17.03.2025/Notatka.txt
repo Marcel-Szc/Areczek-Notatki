@@ -1,0 +1,13 @@
+C:\Users\Programista\Documents\lester\17.03.2025
+Temat: 
+- Kwerendy agregujące: 
+SELECT 
+b*b-4*a*c as "delta", 
+(-b-sqrt(b*b-4*a*c))/2*a as "x1", 
+(-b+sqrt(b*b-4*a*c))/2*a as "x2" 
+FROM `dane`;
+- Zapytania php: 
+
+Zadanie domowe: 
+Pole koła - lista wyników pola koła: dla zmieniającego się r, pole rombu - lista wyników pól rombu bok a I bok b, pole trojkąta(heron) - Formularz: pobiera a,b,c, zadanie w wariancie 1: kw. agregująca lub w wariancie 2: obliczenia w PHP (na podstawie lekcji z 17.03.2025)
+
