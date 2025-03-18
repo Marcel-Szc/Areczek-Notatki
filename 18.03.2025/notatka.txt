@@ -1,0 +1,6 @@
+Temat: wprowadzenie do Django
+Linux/MacOS:
+source \bin\activate
+
+django-admin startproject uczen
+
