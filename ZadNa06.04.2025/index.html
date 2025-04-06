@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function trojkatPoleObwod(a, b, c) {
+            if(a+b >= c){
+                const obwod = a + b + c;
+                const p = obwod / 2;
+                const pole = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+                return  "Trójkąt istnieje, a to obwód: " + obwod +", i pole: " + pole ;
+            } else {
+                return "Trójkąt nie istnieje";
+            }
+        }
+        console.log(trojkatPoleObwod(3, 4, 5));
+
+        function srodekCiezkosci(x1, y1, x2, y2, x3, y3) {
+            const x = (x1 + x2 + x3) / 3;
+            const y = (y1 + y2 + y3) / 3;
+            return { x, y };
+        }
+        console.log(srodekCiezkosci(0, 0, 6, 0, 3, 6)); //Chat-GPT
+
+        function odleglosc(x1, y1, x2, y2) {
+            return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        }
+        console.log(odleglosc(0, 0, 3, 4)); 
+
+        function stopnieNaRadiany(co, dane) {
+            if(co === "stopnie") {
+                return dane * (Math.PI / 180);
+            } else if(co === "radiany") {
+                return dane * (180 / Math.PI);
+            } else {
+                return "Nie ma";
+            }
+        }
+        console.log(stopnieNaRadiany("stopnie", 20));
+        console.log(stopnieNaRadiany("radiany", Math.PI/2));
+
+        function naProstej(x1, y1, x2, y2, x3, y3) {
+            return (y2 - y1)*(x3 - x1) === (y3 - y1)*(x2 - x1);
+        }
+        console.log(naProstej(0, 0, 1, 1, 2, 2));
+
+        function nwd(a, b) {
+            while (b !== 0) {
+                [a, b] = [b, a % b];
+            }
+            return a;
+        }
+        console.log(nwd(48, 18));
+
+        function rozwiazaniaUkladu(a1, b1, c1, a2, b2, c2) {
+            const W = a1 * b2 - a2 * b1;
+            const Wx = c1 * b2 - c2 * b1;
+            const Wy = a1 * c2 - a2 * c1;
+
+            if (W !== 0) {
+                return 'Układ oznaczony (jedno rozwiązanie)';
+            } else if (Wx === 0 && Wy === 0) {
+                return 'Układ nieoznaczony (nieskończenie wiele rozwiązań)';
+            } else {
+                return 'Układ sprzeczny (brak rozwiązań)';
+            }
+        }
+        console.log(rozwiazaniaUkladu(1, 2, 3, 2, 4, 6)); // Chat-GPT
+
+        function silnia(n) {
+            return n <= 1 ? 1 : n * silnia(n - 1);
+        }
+        function kombinator(n, k) {
+            return silnia(n) / (silnia(k) * silnia(n - k));
+        }
+        console.log(kombinator(5, 2)); // Chat-GPT
+
+        function ciagArytmetyczny(a1, r, n) {
+            const ciag = [];
+            for (let i = 0; i < n; i++) {
+                ciag.push(a1 + i * r);
+            }
+            return ciag;
+        }
+        console.log(ciagArytmetyczny(2, 3, 5)); // Chat-GPT
+
+        function rzutKostka() {
+            return Math.floor(Math.random() * 6) + 1;
+        }
+        function symulacjaKostka(wynik, proby = 1000) {
+            let trafienia = 0;
+            for (let i = 0; i < proby; i++) {
+                if (rzutKostka() == wynik) trafienia++;
+            }
+            return "Prawdopodobieństwo wyrzucenia "+wynik+": "+ ((trafienia / proby) * 100).toFixed(2) + "%";
+        }
+        console.log(symulacjaKostka(rzutKostka()));
+    </script>
+</body>
+</html>
