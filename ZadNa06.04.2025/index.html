@@ -31,7 +31,7 @@
         }
         console.log(odleglosc(0, 0, 3, 4)); 
 
-        function stopnieNaRadiany(co, dane) {
+        function stopnieRadiany(co, dane) {
             if(co === "stopnie") {
                 return dane * (Math.PI / 180);
             } else if(co === "radiany") {
@@ -40,8 +40,8 @@
                 return "Nie ma";
             }
         }
-        console.log(stopnieNaRadiany("stopnie", 20));
-        console.log(stopnieNaRadiany("radiany", Math.PI/2));
+        console.log(stopnieRadiany("stopnie", 20));
+        console.log(stopnieRadiany("radiany", Math.PI/2));
 
         function naProstej(x1, y1, x2, y2, x3, y3) {
             return (y2 - y1)*(x3 - x1) === (y3 - y1)*(x2 - x1);
