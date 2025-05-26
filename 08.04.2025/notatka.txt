@@ -1,0 +1,8 @@
+Utwórz w Django stronkę która posiada jedną aplikacje która prezentuje polskie kwiaty. Strona posiada co najmniej 5 podstron, każda podstrona to osobna metoda
+
+virtualenv venv
+venv/Scripts/activate.bat
+pip install Django
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver

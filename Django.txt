@@ -1,0 +1,19 @@
+cd *lokacja pliku*
+pip list
+    pip install virtualenv
+virtualenv venv 
+venv/Scripts/activate.bat
+pip install Django
+django-admin startproject *nazwa projektu*
+cd *nazwa projektu*\
+python manage.py migrate
+python manage.py createsuperuser
+    *dane użytkownika*
+python manage.py runserver
+
+przydatne:
+ls
+pip freeze
+pip list
+pip/python --version
+code .
